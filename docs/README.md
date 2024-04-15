@@ -1,5 +1,4 @@
-# ft_irc
-## Mandatory Part
+# Mandatory Part
 ![](requirements.png)
 
 C++ 98로 IRC 서버를 개발해야 한다.
@@ -17,7 +16,7 @@ C++ 98로 IRC 서버를 개발해야 한다.
 
 > subject와 evaluation scale에는 `poll()`이 언급되지만 `select()`, `kqueue()`, `epoll()` 등 상응하는 함수를 사용할 수 있다.
 
-### Requirements
+## Requirements
 - 서버는 다중 클라이언트를 동시에 처리할 수 있어야 하며 중단되지 말아야 한다.
 - Forking은 허용되지 않는다. 모든 I/O 동작은 **non-blocking**으로 동작해야 한다.
 - 이 모든 작업(read, write, but also listen, and so forth)을 처리하는 데 오직 하나의 `poll()`(또는 상응하는 것)만 사용할 수 있다.
