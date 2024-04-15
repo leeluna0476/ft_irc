@@ -1,5 +1,5 @@
-# External Functions
-- Everything in C++ 98
+# External Functions Allowed
+- Everything in C++ 98 and the followings:
 
 ```cpp
 // sys/socket.h
