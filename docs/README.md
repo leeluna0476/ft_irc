@@ -40,3 +40,11 @@ C++ 98로 IRC 서버를 개발해야 한다.
       - k: Set/remove the channel key (password)
       - o: Give/take channel operator privilege
       - l: Set/remove the user limit to channel
+- 깔끔한 코드를 작성해야 한다.
+
+### For MacOS only
+> MacOS는 `write()`를 다른 UnixOS들처럼 구현하지 않기 때문에, `fcntl()`을 사용하는 것을 허용한다. 다른 UnixOS들과 비슷하게 동작하도록 하기 위해 파일 디스크립터를 non-blocking 모드로 사용해야 한다.
+
+> 파일 디스크립터는 다음과 같은 형태로만 사용할 수 있다:
+> `fcntl(fd, F_SETFL, O_NONBLOCK);`
+> 다른 모든 플래그는 금지된다.
