@@ -20,8 +20,8 @@ off_t	lseek(int fildes, off_t offset, int whence);
 // netdb.h
 struct protoent*	getprotobyname(const char *name);
 struct hostent*		gethostbyname(const char *name);
-int		getaddrinfo(const char *hostname, const char *servname, const struct addrinfo *hints, struct addrinfo **res);
-void		freeaddrinfo(struct addrinfo *ai);
+int			getaddrinfo(const char *hostname, const char *servname, const struct addrinfo *hints, struct addrinfo **res);
+void			freeaddrinfo(struct addrinfo *ai);
 
 // arph/inet.h
 uint16_t	htons(uint16_t hostshort);
