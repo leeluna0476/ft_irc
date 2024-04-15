@@ -21,4 +21,4 @@ C++ 98로 IRC 서버를 개발해야 한다.
 - Forking은 허용되지 않는다. 모든 I/O 동작은 **non-blocking**으로 동작해야 한다.
 - 이 모든 작업(read, write, but also listen, and so forth)를 처리하는 데 오직 하나의 `poll()`(또는 상응하는 것)만 사용할 수 있다.
 
-> non-blocking 파일 디스크립터를 사용해야 하기 때문에 `poll()` 없이 `read/recv` 또는 `write/send` 함수들을 사용할 수 있지만, 이것은 시스템 자원을 더 많이 소모한다. 그렇기에 만일 `poll()`(또는 상응하는 것)을 사용하지 않고 그 어떤 파일 디스크립터에 `read/recv` 또는 `write/send`를 사용한다면 점수는 0이 될 것이다.
+> non-blocking 파일 디스크립터를 사용해야 하기 때문에 `poll()`(또는 상응하는 것) 없이 `read/recv` 또는 `write/send` 함수들을 사용는 것이 가능하지만, 이것은 시스템 자원을 더 많이 소모한다. 그렇기에 만일 `poll()`(또는 상응하는 것)을 사용하지 않고 그 어떤 파일 디스크립터에 `read/recv` 또는 `write/send`를 사용한다면 점수는 0이 될 것이다.
