@@ -1,5 +1,5 @@
 # Mandatory Part
-![](requirements.png)
+![](pics/requirements.png)
 
 C++ 98로 IRC 서버를 개발해야 한다.
 [Internet Relay Chat](https://en.wikipedia.org/wiki/IRC)
