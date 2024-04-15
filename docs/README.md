@@ -31,15 +31,15 @@ C++ 98로 IRC 서버를 개발해야 한다.
   - 한 클라이언트가 채널에 보낸 메시지는 해당 채널에 참여한 모든 클라이언트에게 전달되어야 한다.
   - 운영자와 일반 사용자가 있어야 한다.
   - 다음과 같은 명령들을 구현해야 한다.
-    - KICK - Eject a client from the channel
-    - INVITE - Invite a client to a channel
-    - TOPIC - Change or view the channel topic
-    - MODE - Change the channel's mode
-      - i: Set/remove Invite-only channel
-      - t: Set/remove the restrictions of the TOPIC command to channel operators
-      - k: Set/remove the channel key (password)
-      - o: Give/take channel operator privilege
-      - l: Set/remove the user limit to channel
+    - KICK - 클라이언트를 채널에서 내보낸다.
+    - INVITE - 클라이언트를 채널에 초대한다.
+    - TOPIC - 채널 주제를 조회/변경한다.
+    - MODE - 채널 모드를 변경한다.
+      - i: 초대 전용 모드를 설정/해제한다.
+      - t: 채널 운영자에 대한 TOPIC 명령 제한을 설정/해제한다.
+      - k: 채널 키(비밀번호)를 설정/해제한다.
+      - o: 채널 운영자 권한을 부여/제거한다.
+      - l: 채널 사용자 수를 제한/해제한다.
 - 깔끔한 코드를 작성해야 한다.
 
 ### For MacOS only
