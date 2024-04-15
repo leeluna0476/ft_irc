@@ -1,5 +1,5 @@
 # ft_irc
-An IRC(Internet Relay Chat) server developed in C++ 98.
+An IRC(Internet Relay Chat) server in C++ 98.
 
 `./ircserv <port> <password>`
 ## Features
