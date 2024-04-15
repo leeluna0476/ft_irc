@@ -48,3 +48,8 @@ C++ 98로 IRC 서버를 개발해야 한다.
 > 파일 디스크립터는 다음과 같은 형태로만 사용할 수 있다:
 > `fcntl(fd, F_SETFL, O_NONBLOCK);`
 > 다른 모든 플래그는 금지된다.
+
+## Test example
+`Ctrl+D`를 사용해서 명령어를 부분적으로 보내도 동작해야 한다.
+
+example: `K`, `IC`, `K`
