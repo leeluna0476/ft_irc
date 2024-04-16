@@ -11,4 +11,4 @@ IRC는 텍스트 형태의 통신을 용이하게 하기 위해 application laye
 
 IRC 프로토콜은 RFC(Requests For Comments)를 통해 공개되어 있다.
 
-현존하는 모든 클라이언트-서버 IRC 프로토콜들은 IRC2server의 irc2.8 버전에서 구현된 프로토콜에서 나왔다. 이 프로토콜은 [RFC 1459 - Internet Relay Chat: Server Protocol](https://datatracker.ietf.org/doc/html/rfc1459) 문서에 규정되어 있다.
+현존하는 모든 클라이언트-서버 IRC 프로토콜들은 IRC2server의 irc2.8 버전에서 구현된 프로토콜에서 나왔다. 이 프로토콜은 [RFC 1459 - Internet Relay Chat Protocol](https://datatracker.ietf.org/doc/html/rfc1459) 문서에 규정되어 있다.
