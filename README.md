@@ -56,7 +56,7 @@ An IRC(Internet Relay Chat) server in C++ 98.
         - Set user limits to the channel.
         - `-l`
 
----
+<!-- ---
 
 - test with `nc`
     
@@ -84,7 +84,7 @@ An IRC(Internet Relay Chat) server in C++ 98.
     # ...
     ```
     
-
+-->
 ---
 
 [RFC 2812: Internet Relay Chat: Client Protocol](https://datatracker.ietf.org/doc/html/rfc2812#section-3)
