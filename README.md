@@ -4,7 +4,7 @@ An IRC(Internet Relay Chat) server in C++ 98.
 `./ircserv <port> <password>`
 
 ## Features
-- *At the start of the connection*
+- *At the beginning of the connection*
     - **`PASS`**
         - `PASS <password>`
             - Enter the connection password.
