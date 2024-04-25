@@ -5,38 +5,38 @@ An IRC(Internet Relay Chat) server in C++ 98.
 
 ## Features
 - *At the start of the connection*
-    - `**PASS**`
+    - **`PASS`**
         - `PASS <password>`
             - Enter the connection password.
-    - `**NICK**`
+    - **`NICK`**
         - `NICK <nickname>`
             - Set a nickname.
-    - `**USER**`
+    - **`USER`**
         - `USER <username> <mode> <unused> <real name>`
             - Set a username, a mode, an unused character, and real name.
-- `**JOIN**`
+- **`JOIN`**
     - `JOIN <channel> [ <key> ]`
         - Create a new channel
         - Join an existing channel
-- `**PRIVMSG**`
+- **`PRIVMSG`**
     - `PRIVMSG <*user*> <message>`
         - Send private messages to another user.
     - `PRIVMSG <*channel*> <message>`
         - Send private messages to a channel - everyone on the channel receives the message.
-- `**TOPIC**`
+- **`TOPIC`**
     - `TOPIC <channel> <topic>` , `TOPIC <channel> :<topic>`
         - Set a topic on the channel.
     - `TOPIC <channel> :`
         - Clear the topic on the channel.
     - `TOPIC <channel>`
         - Check the topic on the channel.
-- `**INVITE**`
+- **`INVITE`**
     - `INVITE <user> <channel>`
         - Invite a user to the channel.
-- `**KICK`**
+- **`KICK`**
     - `KICK <channel> <user>`
         - Kick a user from the channel.
-- `**MODE**`
+- **`MODE`**
     - `MODE <channel>`
         - Show the channel modes.
     - `MODE <channel> +i`
